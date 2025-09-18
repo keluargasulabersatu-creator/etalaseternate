@@ -1,2 +1,3 @@
-# etalaseternate
-ETALASE TERNATE adalah platform digital kreatif yang berfokus pada layanan promosi, publikasi, dan branding untuk UMKM, komunitas, lembaga pendidikan, maupun instansi di Kota Ternate dan sekitarnya. Kami hadir untuk menjembatani pelaku usaha lokal agar dapat dikenal lebih luas melalui teknologi digital yang mudah, praktis, dan terjangkau.  
+🎯 Tentang KeySmart
+KeySmart adalah aplikasi edukasi digital yang dirancang untuk membantu anak-anak belajar *ahasa Inggris dengan cara mudah, menyenangkan, dan interaktif.  
+Melalui aplikasi ini, HP yang biasanya hanya dipakai untuk game atau hiburan dapat menjadi sahabat belajar cerdas.
