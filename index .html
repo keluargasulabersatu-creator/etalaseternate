@@ -1,141 +1,52 @@
-<!DOCTYPE html>
+﻿<!doctype html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>KeySmart Try Out Kursus</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Artikel — Catatan Elang</title>
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background: linear-gradient(135deg, #f6d365, #fda085);
-      color: #333;
-    }
-    header {
-      text-align: center;
-      padding: 40px 20px;
-      background: rgba(255,255,255,0.8);
-      border-bottom: 5px solid #ff6b6b;
-    }
-    header h1 {
-      font-size: 2.5rem;
-      margin-bottom: 10px;
-      color: #ff6b6b;
-    }
-    header p {
-      font-size: 1.2rem;
-    }
-    .container {
-      max-width: 900px;
-      margin: auto;
-      padding: 20px;
-    }
-    .section {
-      background: #fff;
-      margin: 20px 0;
-      padding: 25px;
-      border-radius: 12px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    }
-    .section h2 {
-      color: #ff6b6b;
-      margin-bottom: 15px;
-    }
-    ul {
-      margin: 10px 0;
-      padding-left: 20px;
-    }
-    .cta {
-      text-align: center;
-      padding: 30px;
-      background: #ff6b6b;
-      color: white;
-      border-radius: 12px;
-      margin: 20px 0;
-    }
-    .cta h2 {
-      margin-bottom: 15px;
-    }
-    .cta a {
-      display: inline-block;
-      background: white;
-      color: #ff6b6b;
-      padding: 12px 25px;
-      border-radius: 30px;
-      font-weight: bold;
-      text-decoration: none;
-      transition: 0.3s;
-    }
-    .cta a:hover {
-      background: #ffd6d6;
-    }
-    footer {
-      text-align: center;
-      padding: 20px;
-      background: rgba(255,255,255,0.7);
-      border-top: 3px solid #ff6b6b;
-    }
+    body{font-family:system-ui,Arial;margin:0;padding:20px;line-height:1.6;color:#111}
+    header{margin-bottom:20px;border-bottom:2px solid #eee;padding-bottom:10px}
+    nav a{margin-right:12px;text-decoration:none;color:#0b5ed7;font-weight:600}
+    nav a:hover{text-decoration:underline}
+    h1{margin:0 0 8px 0}
+    .list{list-style:none;padding:0}
+    .list li{margin:14px 0;padding:10px;border:1px solid #eee;border-radius:8px}
+    .list a{font-size:18px;font-weight:600;color:#0b5ed7;text-decoration:none}
+    .list a:hover{text-decoration:underline}
+    .meta{color:#666;font-size:14px;margin-top:4px}
   </style>
 </head>
 <body>
+  <!-- Navigasi -->
+  <header>
+    <h1>Daftar Artikel</h1>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/profil/">Profil</a>
+      <a href="/artikel/">Artikel</a>
+      <a href="/kegiatan/">Kegiatan</a>
+      <a href="/galeri/">Galeri</a>
+      <a href="/kontak/">Kontak</a>
+    </nav>
+  </header>
 
-<header>
-  <h1>🎉 Program Try Out Kursus KeySmart 🎉</h1>
-  <p>Privat Bahasa Inggris Digital – Hanya Rp 10.000 / Anak / Bulan</p>
-</header>
-
-<div class="container">
-  <div class="section">
-    <h2>✨ Kesempatan Terbatas</h2>
-    <p>Kami membuka <b>kelas perdana (Try Out)</b> untuk 10 anak saja.  
-    Biaya super murah: <b>Rp 10.000 / anak untuk 1 bulan penuh!</b></p>
-  </div>
-
-  <div class="section">
-    <h2>📘 Apa yang Didapat Anak?</h2>
-    <ul>
-      <li>12 kali pertemuan intensif (3–4 kali seminggu).</li>
-      <li>Belajar <b>bahasa Inggris percakapan sederhana</b>.</li>
-      <li>Sistem digital interaktif – anak bisa latihan lewat HP.</li>
-      <li>Belajar seru, modern, sesuai era digital.</li>
-      <li>Tutor praktisi IT & AI aplikasi edukasi.</li>
+  <!-- Isi daftar artikel -->
+  <main>
+    <ul class="list">
+      <li>
+        <a href="tulisan1.html">Judul Artikel Pertama</a>
+        <div class="meta">📅 1 Oktober 2025 • 3 menit baca</div>
+        <p>Ringkasan singkat isi artikel pertama…</p>
+      </li>
+      <li>
+        <a href="tulisan2.html">Judul Artikel Kedua</a>
+        <div class="meta">📅 5 Oktober 2025 • 4 menit baca</div>
+        <p>Ringkasan singkat isi artikel kedua…</p>
+      </li>
+      <!-- Tambahkan artikel berikutnya di sini -->
     </ul>
-  </div>
-
-  <div class="section">
-    <h2>🎯 Tujuan Program</h2>
-    <p>
-      Membantu anak-anak:  
-      <ul>
-        <li>Bisa greeting (salam) & percakapan ringan.</li>
-        <li>Belajar dengan cara baru yang menyenangkan.</li>
-        <li>Membiasakan HP jadi alat belajar, bukan hanya game/video.</li>
-      </ul>
-    </p>
-  </div>
-
-  <div class="section">
-    <h2>💡 Kenapa Harus Ikut?</h2>
-    <ul>
-      <li>Hanya Rp 10.000 → lebih murah dari beli pulsa!</li>
-      <li>Anak dapat pengalaman belajar baru.</li>
-      <li>Orang tua bisa lihat perkembangan anak 1 bulan penuh.</li>
-      <li>Terbatas hanya untuk 10 anak!</li>
-    </ul>
-  </div>
-
-  <div class="cta">
-    <h2>📞 Informasi & Pendaftaran</h2>
-    <p>Hubungi: <b>Coach Kaka Duwila</b><br>
-    WA: <b>0813-1502-1228</b></p>
-    <a href="https://wa.me/6281315021228">Daftar Sekarang</a>
-  </div>
-</div>
-
-<footer>
-  &copy; 2025 KeySmart – HP Jadi Sahabat Belajar Anak
-</footer>
-
+  </main>
 </body>
 </html>
+
